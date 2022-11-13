@@ -144,7 +144,7 @@ h1 {
   display: none;
 }
 
-.card__button {
+.button {
   color: white;
   width: 8rem;
   padding: 1rem;
@@ -155,7 +155,7 @@ h1 {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 45);
 }
 
-.card__button:hover {
+.button:hover {
   color: #44a678;
   background-color: white;
   opacity: 90%;
@@ -291,6 +291,9 @@ footer {
   margin-top: 5rem;
 }
 
+.agenda__indicacion {
+  padding-bottom: 1rem;
+}
 .agenda__indicaciones {
   padding: 1rem;
 }
@@ -300,29 +303,13 @@ footer {
   margin-top: 2rem;
   background-color: #44a678;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 45);
-  font-size: 1.5rem;
+  font-size: 1rem;
   justify-content: center;
 }
 
 .agenda__reserva {
   padding: 1rem;
   margin-top: 2rem;
-}
-.agenda__boton {
-  color: white;
-  text-transform: uppercase;
-  background-color: #44a678;
-  padding: 1rem;
-  margin-top: 2rem;
-  border-radius: 5rem;
-  margin: 15px;
-  border-style: none;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 45);
-  margin-bottom: 10rem;
-}
-
-.agenda__boton:hover {
-  opacity: 50%;
 }
 
 /* _________________________CONTACTO_____________________ */
